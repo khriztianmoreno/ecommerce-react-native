@@ -1,0 +1,52 @@
+{
+  "name": "ecommerce-react-native",
+  "version": "3.0.0",
+  "private": false,
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "4.4.1",
+    "eslint-plugin-flowtype": "2.35.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-prettier": "2.1.2",
+    "eslint-plugin-react": "7.1.0",
+    "eslint-plugin-react-native": "3.0.1",
+    "flow-bin": "0.52.0",
+    "flow-typed": "2.1.5",
+    "husky": "0.14.3",
+    "jest": "20.0.4",
+    "jest-expo": "19.0.5",
+    "prettier": "1.5.3",
+    "react-native-scripts": "1.1.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "eslint ."
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(react-native|lottie-react-native|expo|react-native-maps|react-native-svg|react-native-branch|native-base-shoutem-theme|react-native-easy-grid|react-native-drawer|react-native-vector-icons|react-native-keyboard-aware-scroll-view|react-native-swiper|react-navigation|native-base|@expo|react-native-scrollable-tab-view|react-native-simple-modal)/)"
+    ]
+  },
+  "dependencies": {
+    "expo": "21.0.2",
+    "mobx": "^3.0.0",
+    "mobx-react": "^4.1.0",
+    "native-base": "2.3.1",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.48.4",
+    "react-native-parallax-scroll-view": "0.19.0",
+    "react-native-swiper": "1.5.4",
+    "react-native-tab-view": "0.0.52",
+    "react-navigation": "1.0.0-beta.11",
+    "reazy": "0.0.3",
+    "reazy-native-router-actions": "0.0.2",
+    "simple-line-icons": "2.4.1"
+  }
+}

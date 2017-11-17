@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "sdkVersion": "21.0.0",
+    "icon": "./images/icon.png",
+    "slug": "EcommerceReactNative",
+    "loading": {
+      "hideExponentText": true,
+      "icon": "./images/loading.png",
+      "backgroundImage": "./images/launchscreen.png"
+    },
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "ios": {
+      "bundleIdentifier": "io.market.nativebase.geekyants.ecommerce"
+    },
+    "android": {
+      "package": "io.market.nativebase.geekyants.ecommerce"
+    },
+    "androidStatusBarColor": "#7468C5",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#7468C5"
+    }
+  }
+}
