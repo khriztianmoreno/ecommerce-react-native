@@ -1,14 +1,62 @@
-## Strap Ecommerce Pro v3.0.0
+# Ecommerce React Native
 
-Thanks for purchasing the Strap Ecommerce.
+## Installation
 
-Follow the documentation to install and get started with the development:
+### System Requirements:
 
--   [Documentation](http://docs.market.nativebase.io/react-native-ecommerce-pro-app-ui/)
--   [Product Page](https://market.nativebase.io/view/react-native-e-commerce-pro-theme)
--	[Change Log](http://gitstrap.com/strapmobile/EcommercePro/blob/v3.0.1/ChangeLog.md)
--	[License Page](https://market.nativebase.io/licenses)
+- Globally installed node>= 6
+- Globally installed npm>= 3
 
-Please do check `FAQs` section in docs for queries.
+- Install packages for Full Version
+
+```shell
+cd App
+npm install
+or
+yarn
+```
+
+- To simulate for iOS
+    - Method One:
+        - Run `npm start` in your terminal.
+        - Scan the QR code in your Expo App.
+    - Method Two:
+        - Type `npm run ios` in your terminal.
+
+- To simulate for Android
+    - Method One:
+        - Run `npm start` in your terminal.
+        - Scan the QR code in your Expo App.
+    - Method Two:
+        - Make sure you have an Android emulator installed and running.
+        - Type `npm run android` in your terminal.
+
+## Start Building Your App
+
+This App guides you throughout building your app, providing the steps and procedure to customize.
+
+### How to add new component
+
+- Create a new folder, say `newComponent` and place it under `/js/src` .
+- Create a new file `index.js` , within this folder.
+- Name the class same as that of folder name.
+
+```js
+class NewComponent extends Component {
+    ...
+}
+```
+
+### How to add new styleSheet
+
+- Create a new file `styles.js` , place it under `/js/src/newComponent`.
+- `import` newly created StyleSheet into the Component.
+
+```js
+import styles from './styles';
+class NewComponent extends Component {
+    ...
+}
+```
 
 Happy coding!
