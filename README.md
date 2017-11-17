@@ -1,5 +1,7 @@
 # Ecommerce React Native
 
+The ideal starter kit / app script with all the needed UI elements alongwith MobX and NativeBase to build your iOS and Android e-commerce app like Mona / JackThreads / Canopy / Flipp
+
 ## Installation
 
 ### System Requirements:
