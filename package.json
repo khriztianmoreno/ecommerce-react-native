@@ -8,7 +8,7 @@
     "eslint-plugin-flowtype": "2.50.3",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-prettier": "2.1.2",
+    "eslint-plugin-prettier": "2.7.0",
     "eslint-plugin-react": "7.1.0",
     "eslint-plugin-react-native": "3.0.1",
     "flow-bin": "0.52.0",
