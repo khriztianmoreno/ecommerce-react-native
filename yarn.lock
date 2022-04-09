@@ -4886,8 +4886,8 @@ mobx@^3.0.0:
   resolved "https://registry.yarnpkg.com/mobx/-/mobx-3.3.1.tgz#c38fc1a287a0dda3f5d4b85efe1137fedd9dcdf0"
 
 moment@2.x.x, moment@^2.10.6:
-  version "2.19.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.19.1.tgz#56da1a2d1cbf01d38b7e1afc31c10bcfa1929167"
+  version "2.29.2"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.2.tgz#00910c60b20843bcba52d37d58c628b47b1f20e4"
 
 morgan@~1.6.1:
   version "1.6.1"
